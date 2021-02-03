@@ -1,0 +1,74 @@
+footer{
+    .dark-blue{
+        h6{
+            font-weight: 600;
+        }
+        background-color: #09182e;
+        color: #fff;
+        padding: 2.5% 0px;
+        .contact-info{
+            h6{
+                margin-left: 24px;
+            }
+            ul{
+                li{
+                    span{
+                        font-size: 13px;
+                    }
+                    i{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .about, .links{
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        form{
+            input{
+                width: 100%;
+                margin: 5px 0px;
+                border: #fff 0.25px solid;
+                background-color: transparent;
+                padding: 2%;
+            }
+            ::placeholder{
+                color: #fff;
+                font-size: 12px;
+            }
+            button{
+                background-color: #fff;
+                color: #194481;
+                border-radius: 0px;
+                width: 55%;
+                float: right;
+            }
+        }
+        .social-links{
+            ul{
+                li{
+                    display: inline;
+                    margin-right: 5px;
+                    i{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .sprintive-copyrights{
+        p{
+            color: #333333;
+            font-size: 12px;
+            margin-top: 1%;
+        }
+    }
+}

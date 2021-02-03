@@ -1,0 +1,79 @@
+footer .dark-blue {
+  background-color: #09182e;
+  color: #fff;
+  padding: 2.5% 0px;
+}
+
+footer .dark-blue h6 {
+  font-weight: 600;
+}
+
+footer .dark-blue .contact-info h6 {
+  margin-left: 24px;
+}
+
+footer .dark-blue .contact-info ul li span {
+  font-size: 13px;
+}
+
+footer .dark-blue .contact-info ul li i {
+  font-size: 10px;
+}
+
+footer .dark-blue .about ul li a, footer .dark-blue .links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+footer .dark-blue form input {
+  width: 100%;
+  margin: 5px 0px;
+  border: #fff 0.25px solid;
+  background-color: transparent;
+  padding: 2%;
+}
+
+footer .dark-blue form ::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+footer .dark-blue form :-ms-input-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+footer .dark-blue form ::-ms-input-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+footer .dark-blue form ::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+footer .dark-blue form button {
+  background-color: #fff;
+  color: #194481;
+  border-radius: 0px;
+  width: 55%;
+  float: right;
+}
+
+footer .dark-blue .social-links ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+footer .dark-blue .social-links ul li i {
+  color: #fff;
+}
+
+footer .sprintive-copyrights p {
+  color: #333333;
+  font-size: 12px;
+  margin-top: 1%;
+}
+/*# sourceMappingURL=footer.css.map */
