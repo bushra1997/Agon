@@ -61,7 +61,7 @@
 }
 
 .light .description, .white .description {
-  margin-top: 25%;
+  margin-top: 15%;
   padding: 5%;
 }
 
@@ -103,7 +103,10 @@
   text-align: center;
   border: #194481 2px solid;
   color: #194481;
-  background-color: transparent;
+}
+
+.light .buttons .white, .white .buttons .white {
+  background-color: #fff;
 }
 
 .light .buttons .active, .white .buttons .active {
@@ -137,23 +140,78 @@
   border-radius: 0;
 }
 
-.flex {
-  padding: 1% 0;
+.platform .btn-white:hover {
+  color: #fff;
 }
 
-.flex .flex-div {
-  margin: 0px 35px;
+.swiper-container {
+  width: 50%;
+  height: 15%;
+  margin: 1% 0% 1.5%;
 }
 
-.flex #azierta {
+.swiper-container .swiper-wrapper .swiper-slide {
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-container .swiper-wrapper #azierta {
+  margin-top: 5%;
+}
+
+.swiper-container .swiper-wrapper #coval {
   margin-top: 2%;
-}
-
-.flex #coval {
-  margin-top: 1%;
 }
 
 #description2, #description3, #description4, #description5 {
   display: none;
+}
+
+.section-circle {
+  padding: 5% 0% 7%;
+}
+
+.section-circle .circle {
+  position: absolute;
+}
+
+.section-circle .circle img {
+  width: 400px;
+  left: 0;
+  margin-top: 25px;
+  margin-left: -30%;
+  z-index: -1;
+}
+
+.section-circle .buttons button {
+  z-index: 9999;
+}
+
+.section-circle .buttons .deg0 {
+  -webkit-transform: translate(200%);
+          transform: translate(200%);
+}
+
+.section-circle .buttons .deg45 {
+  -webkit-transform: rotate(45deg) translate(7rem) rotate(-45deg);
+          transform: rotate(45deg) translate(7rem) rotate(-45deg);
+  margin-left: 18%;
+  margin-top: -10%;
+}
+
+.section-circle .buttons .deg315 {
+  -webkit-transform: rotate(350deg) translate(7rem) rotate(-350deg);
+          transform: rotate(350deg) translate(7rem) rotate(-350deg);
+  margin-left: 18%;
+  margin-top: 7%;
 }
 /*# sourceMappingURL=fields.css.map */

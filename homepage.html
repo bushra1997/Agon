@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/fields.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <!-- Bootstrap CSS link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <!-- Font awesome -->
     <!-- Font awesome -->
@@ -15,15 +18,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
     <title>Agon</title>
-    <style>
-
-    </style>
 </head>
 <body>
     <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="./images/Agon-Logo.png" alt=""></a>
+            <div class="logo">
+                <a class="navbar-brand" href="#"><img src="./images/Agon-Logo.png" alt=""></a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars" style="color: white;"></i>
             </button>
@@ -62,6 +64,7 @@
                     <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
                     <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
                 </ul>
+                
             </div>
         </div>    
     </nav>
@@ -72,38 +75,94 @@
           <li data-target="#carousel" data-slide-to="2"></li>
           <li data-target="#carousel" data-slide-to="3"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner ">
           <div class="carousel-item drk active">
             <img src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <!-- <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p> -->
+            <div class="carousel-caption text-left">
+              <h1>First slide label</h1>
+              <h5>Some representative placeholder content for the first slide.</h5>
+              <button class="btn"> REGIST NOW</button>
             </div>
           </div>
           <div class="carousel-item drk">
             <img src="./images/problem-solving-close-up-view-hand-business-woman-stopping-falling-blocks-table-concept-about-taking-responsibility.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <!-- <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p> -->
+            <div class="carousel-caption text-left">
+              <h1>Second slide label</h1>
+              <h5>Some representative placeholder content for the second slide.</h5>
+              <button class="btn"> REGIST NOW</button>
             </div>
           </div>
           <div class="carousel-item drk">
             <img src="./images/womans-hands-typing-laptop-workplace.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <!-- <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p> -->
+            <div class="carousel-caption text-left">
+              <h1>Third slide label</h1>
+              <h5>Some representative placeholder content for the third slide.</h5>
+              <button class="btn"> REGIST NOW</button>
             </div>
           </div>
           <div class="carousel-item drk">
             <img src="./images/problem-solving-close-up-view-hand-business-woman-stopping-falling-blocks-table-concept-about-taking-responsibility.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <!-- <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p> -->
+            <div class="carousel-caption text-left">
+              <h1>Third slide label</h1>
+              <h5>Some representative placeholder content for the third slide.</h5>
+              <button class="btn"> REGIST NOW</button>
             </div>
           </div>
         </div>
     </div>
     <!-- Section 1 -->
+    <section class="white section-circle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="circle">
+                        <img src="./images/Oval.svg" alt="">
+                    </div>
+                    <div class="buttons">
+                        <button class="click1 white btn-circle deg315 active" id="white">
+                            <img class ='white-industry'src="./images/industry -white.svg" alt="">
+                            <img class ='blue-industry' src="./images/industry-blue.svg" alt="">
+                            <span>
+                                Pharmaceutical <br>Industry
+                            </span>
+                        </button>
+                        <button class="click2 white btn-circle deg0" id="white">
+                            <img class ='blue-hospital'src="./images/hospitals-blue.svg" alt="">
+                            <img class ='white-hospital' src="./images/hospitals-white.svg" alt="">
+                            <span>
+                                Hospitals
+                            </span>
+                        </button>
+                        <button class="click3 white btn-circle deg45" id="white">
+                            <img class ='blue-drug' src="./images/drug-blue.svg" alt="">
+                            <img class ='white-drug' src="./images/drug white.svg" alt="">
+                            <br>
+                            <span>
+                                Drug Stroes
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="description" id="description1">
+                        <h1>Pharmaceutical  <br>Industry</h1>
+                        <p>Do you work in a pharmaceutical industry? Agon provide tempor ...</p>
+                        <button class="btn btn-blue">REQUEST A SERVICE</button>
+                    </div>
+                    <div class="description" id="description2">
+                        <h1>Hospitals</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, asperiores a architecto deserunt iure provident necessitatibus commodi sunt distinctio quod deleniti error dignissimos molestiae consectetur natus aperiam adipisci quia voluptas.</p>
+                        <button class="btn btn-blue">REQUEST A SERVICE</button>
+                    </div>
+                    <div class="description" id="description3">
+                        <h1>Drug Stores</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse animi minus necessitatibus numquam quaerat mollitia iste sapiente consectetur quasi cupiditate, eligendi doloribus, reprehenderit excepturi maiores porro. Inventore, nesciunt aliquam!</p>
+                        <button class="btn btn-blue">REQUEST A SERVICE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Section 2 -->
     <section class="light text-center" id="section">
@@ -195,19 +254,147 @@
         </div>
     </section>
     <!-- Section 5 -->
-
-    <!-- Section 6 -->
-    <section class="flex d-flex justify-content-center">
-        <div class="flex-div" id="azierta">
-            <img src="./images/logo-azierta-.svg" alt="" width="120px">
-        </div>
-        <div class="flex-div" id="coval">
-            <img src="./images/Coval.svg" alt="" width="150px">
-        </div>
-        <div class="flex-div">
-            <img src="./images/bts-website.svg" alt="" width="150px">
+    <section class="light section-circle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="circle">
+                        <img src="./images/Oval.svg" alt="">
+                    </div>
+                    <div class="buttons">
+                        <button class="click4 btn-circle deg315">
+                            <img class ='blue-news'src="./images/NEws.svg" alt="">
+                            <img class ='white-news' src="" alt="">
+                            <br>
+                            <span>
+                                Agon News 
+                            </span>
+                        </button>
+                        <button class="click5 btn-circle deg0">
+                            <img class ='blue-training' src="./images/Public Training.svg" alt="">
+                            <img class ='white-training' src="" alt="">
+                            <br>
+                            <span>
+                                Public Trainings
+                            </span>
+                        </button>
+                        <button class="click6 btn-circle deg45 active">
+                            <img class ='blue-insight' src ="" alt="">
+                            <img class ='white-insight' src="./images/Insight.svg" alt="">
+                            <br>
+                            <span>
+                                Agon Insight 
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="description" id="description4">
+                        <h1>Agon News</h1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="image">
+                                        <img width="100%"src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="info">
+                                        <h3>Title</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="image">
+                                        <img width="100%"src="./images/womans-hands-typing-laptop-workplace.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="info">
+                                        <h3>Title</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description" id="description5">
+                        <h1>Public Trainings </h1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="image">
+                                        <img width="100%"src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="info">
+                                        <h3>Title</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="image">
+                                        <img width="100%"src="./images/womans-hands-typing-laptop-workplace.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="info">
+                                        <h3>Title</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description" id="description6">
+                        <h1>Agon Insight</h1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="image">
+                                        <img width="100%"src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="info">
+                                        <h3>Title</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="image">
+                                        <img width="100%"src="./images/womans-hands-typing-laptop-workplace.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div class="info">
+                                        <h3>Title</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- Section 6 -->
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" id="azierta">
+        <img src="./images/logo-azierta-.svg" alt="" width="120px">
+      </div>
+      <div class="swiper-slide" id="coval">
+        <img src="./images/Coval.svg" alt="" width="150px">
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/bts-website.svg" alt="" width="150px">
+      </div>
+    </div>
+  </div>
     <!-- FOOTER -->
     <footer>
         <section class="dark-blue">
@@ -289,5 +476,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="./js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="./js/swiper.js"></script>
 </body>
 </html>

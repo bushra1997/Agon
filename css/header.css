@@ -1,9 +1,13 @@
-.social .ul li {
+.social_media {
+  margin-bottom: 15px;
+}
+
+.social_media ul li {
   display: inline;
   margin-right: 10px;
 }
 
-.social .ul li a i {
+.social_media ul li a i {
   color: #ffffff;
 }
 
@@ -62,6 +66,30 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel .carousel-inner .carousel-caption {
+  top: auto;
+  bottom: 75px;
+  left: 150px;
+}
+
+.carousel .carousel-inner .carousel-caption h1 {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.carousel .carousel-inner .carousel-caption h5 {
+  font-size: 22px;
+}
+
+.carousel .carousel-inner .carousel-caption button {
+  background-color: rgba(25, 68, 129, 0.4);
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 0px;
+  padding: 1% 0%;
+  margin-top: 18px;
 }
 
 .carousel ol.carousel-indicators li, .carousel ol.carousel-indicators li.active {
