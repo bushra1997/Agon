@@ -21,7 +21,21 @@
   margin-left: 30px;
 }
 
+.navbar .social {
+  margin-right: -8px;
+}
+
+.navbar .social ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar .social ul li i {
+  color: #fff;
+}
+
 .navbar .navbar-nav {
+  margin-top: -15px;
   text-align: center;
 }
 
@@ -50,7 +64,6 @@
 
 .carousel {
   position: relative !important;
-  margin-top: -10%;
 }
 
 .carousel .carousel-inner .carousel-item {
@@ -104,6 +117,9 @@
 }
 
 @media (max-width: 991.98px) {
+  .navbar .social {
+    display: none;
+  }
   .navbar .navbar-text {
     display: inline-block;
   }
