@@ -68,4 +68,8 @@ $(document).ready(function () {
         $('.click5').removeClass('active');
 
     });
+
+    $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+    });
 });

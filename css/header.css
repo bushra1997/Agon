@@ -14,6 +14,8 @@
 .navbar {
   z-index: 9999;
   background-color: transparent;
+  -webkit-transition: 0.75s ease;
+  transition: 0.75s ease;
 }
 
 .navbar .navbar-brand img {
@@ -60,6 +62,10 @@
 
 .navbar .navbar-text li a i {
   color: #ffffff;
+}
+
+.navbar.scrolled {
+  display: none !important;
 }
 
 .carousel {
@@ -117,11 +123,19 @@
 }
 
 @media (max-width: 991.98px) {
-  .navbar .social {
+  nav.navbar .navbar-brand img {
+    width: 70px;
+    margin-left: 0px;
+  }
+  nav.navbar .social {
     display: none;
   }
-  .navbar .navbar-text {
+  nav.navbar .navbar-text {
     display: inline-block;
+  }
+  nav.navbar .navbar-collapse {
+    background-color: #09182e !important;
+    padding-top: 25px;
   }
   .carousel .carousel-inner .carousel-item {
     height: auto;

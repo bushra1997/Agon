@@ -15,6 +15,7 @@
 .navbar{
     z-index: 9999;
     background-color: transparent;
+    transition:0.75s ease;
     .navbar-brand{
         img{
             width: 100px;
@@ -60,7 +61,9 @@
         }
     }
 }
-
+.navbar.scrolled{
+    display: none!important;
+}
 .carousel{
     position: relative !important;
     .carousel-inner{
@@ -109,12 +112,22 @@
     }
 }
 @media (max-width: 991.98px) {
-    .navbar{
+    nav.navbar{
+        .navbar-brand{
+            img{
+                width: 70px;
+                margin-left: 0px;
+            }
+        }
         .social{
             display: none;
         }
         .navbar-text{
             display: inline-block;
+        }
+        .navbar-collapse{
+            background-color: #09182e!important;
+            padding-top: 25px;
         }
     }
     .carousel{
