@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/fields.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -17,6 +21,9 @@
     <!-- Font family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+    <!-- Font family Arabic -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap" rel="stylesheet">
     <title>Agon</title>
 </head>
 <body>
@@ -64,7 +71,7 @@
                             <a class="nav-link" href="#">Contact us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">عربي</a>
+                            <a class="nav-link" href="#" style="font-family: 'Cairo', sans-serif;">عربي</a>
                         </li>
                     </ul>
                     <ul class="navbar-text">
@@ -128,7 +135,7 @@
                         <img src="./images/Oval.svg" alt="">
                     </div>
                     <div class="buttons">
-                        <button class="click1 white btn-circle deg315 active" id="white">
+                        <button class="click1 white btn-circle deg45 active" id="white">
                             <img class ='white-industry'src="./images/industry -white.svg" alt="">
                             <img class ='blue-industry' src="./images/industry-blue.svg" alt="">
                             <span>
@@ -138,11 +145,12 @@
                         <button class="click2 white btn-circle deg0" id="white">
                             <img class ='blue-hospital'src="./images/hospitals-blue.svg" alt="">
                             <img class ='white-hospital' src="./images/hospitals-white.svg" alt="">
+                            <br>
                             <span>
                                 Hospitals
                             </span>
                         </button>
-                        <button class="click3 white btn-circle deg45" id="white">
+                        <button class="click3 white btn-circle deg315" id="white">
                             <img class ='blue-drug' src="./images/drug-blue.svg" alt="">
                             <img class ='white-drug' src="./images/drug white.svg" alt="">
                             <br>
@@ -174,7 +182,7 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="light text-center" id="section">
+    <section class="light text-center" id="section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
         <div class="container">
             <h1>Agon Services</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at placeat voluptates eveniet dolor veritatis quam saepe? Recusandae quis quaerat eius, neque, rem corporis commodi dolorum iusto dolores incidunt numquam?</p>
@@ -223,7 +231,7 @@
         </div>
     </section>
     <!-- Section 4 -->
-    <section class="white text-center" id="section">
+    <section class="white text-center" id="section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
         <div class="container">
             <h1>Agon Training</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at placeat voluptates eveniet dolor veritatis quam saepe? Recusandae quis quaerat eius, neque, rem corporis commodi dolorum iusto dolores incidunt numquam?</p>
@@ -271,9 +279,9 @@
                         <img src="./images/Oval.svg" alt="">
                     </div>
                     <div class="buttons">
-                        <button class="click4 btn-circle deg315">
+                        <button class="click4 btn-circle deg45">
                             <img class ='blue-news'src="./images/NEws.svg" alt="">
-                            <img class ='white-news' src="" alt="">
+                            <img class ='white-news' src="./images/newspaper white.svg" alt="">
                             <br>
                             <span>
                                 Agon News 
@@ -281,14 +289,14 @@
                         </button>
                         <button class="click5 btn-circle deg0">
                             <img class ='blue-training' src="./images/Public Training.svg" alt="">
-                            <img class ='white-training' src="" alt="">
+                            <img class ='white-training' src="./images/event white.svg" alt="">
                             <br>
                             <span>
                                 Public Trainings
                             </span>
                         </button>
-                        <button class="click6 btn-circle deg45 active">
-                            <img class ='blue-insight' src ="" alt="">
+                        <button class="click6 btn-circle deg315 active">
+                            <img class ='blue-insight' src ="./images/insight blue.svg" alt="">
                             <img class ='white-insight' src="./images/Insight.svg" alt="">
                             <br>
                             <span>
@@ -489,5 +497,8 @@
     <script src="./js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
     <script src="./js/swiper.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

@@ -90,11 +90,11 @@
 }
 
 .light .buttons img, .white .buttons img {
-  width: 50px;
+  width: 40px;
   margin-bottom: 5px;
 }
 
-.light .buttons .blue-industry, .light .buttons .white-hospital, .light .buttons .white-drug, .white .buttons .blue-industry, .white .buttons .white-hospital, .white .buttons .white-drug {
+.light .buttons .blue-industry, .light .buttons .white-hospital, .light .buttons .white-drug, .light .buttons .white-news, .light .buttons .white-training, .light .buttons .blue-insight, .white .buttons .blue-industry, .white .buttons .white-hospital, .white .buttons .white-drug, .white .buttons .white-news, .white .buttons .white-training, .white .buttons .blue-insight {
   display: none;
 }
 
@@ -200,21 +200,78 @@
 }
 
 .section-circle .buttons .deg0 {
-  -webkit-transform: translate(200%);
-          transform: translate(200%);
+  -webkit-transform: translate(205%);
+          transform: translate(205%);
 }
 
 .section-circle .buttons .deg45 {
-  -webkit-transform: rotate(45deg) translate(7rem) rotate(-45deg);
-          transform: rotate(45deg) translate(7rem) rotate(-45deg);
-  margin-left: 18%;
-  margin-top: -10%;
+  -webkit-transform: rotate(45deg) translate(0rem) rotate(-45deg);
+          transform: rotate(45deg) translate(0rem) rotate(-45deg);
+  margin-bottom: 1rem;
+  margin-left: 16rem;
 }
 
 .section-circle .buttons .deg315 {
-  -webkit-transform: rotate(350deg) translate(7rem) rotate(-350deg);
-          transform: rotate(350deg) translate(7rem) rotate(-350deg);
-  margin-left: 18%;
-  margin-top: 7%;
+  -webkit-transform: rotate(315deg) translate(0rem) rotate(-315deg);
+          transform: rotate(315deg) translate(0rem) rotate(-315deg);
+  margin-top: 1rem;
+  margin-left: 14.5rem;
+}
+
+@media (max-width: 1000px) {
+  .section-circle {
+    padding: 5% 0% 7%;
+  }
+  .section-circle .circle {
+    position: absolute;
+  }
+  .section-circle .circle img {
+    width: 400px;
+    left: 0;
+    margin-top: 25px;
+    margin-left: -30%;
+    z-index: -1;
+  }
+  .section-circle .buttons button {
+    z-index: 9999;
+  }
+  .section-circle .buttons .deg0 {
+    -webkit-transform: translate(170%);
+            transform: translate(170%);
+  }
+  .section-circle .buttons .deg45 {
+    -webkit-transform: rotate(45deg) translate(0rem) rotate(-45deg);
+            transform: rotate(45deg) translate(0rem) rotate(-45deg);
+    margin-bottom: 1rem;
+    margin-left: 12rem;
+  }
+  .section-circle .buttons .deg315 {
+    -webkit-transform: rotate(315deg) translate(0rem) rotate(-315deg);
+            transform: rotate(315deg) translate(0rem) rotate(-315deg);
+    margin-top: 1rem;
+    margin-left: 12rem;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .section-circle {
+    padding: 5% 0% 7%;
+  }
+  .section-circle .buttons .deg0 {
+    -webkit-transform: translate(170%);
+            transform: translate(170%);
+  }
+  .section-circle .buttons .deg45 {
+    -webkit-transform: rotate(45deg) translate(0rem) rotate(-45deg);
+            transform: rotate(45deg) translate(0rem) rotate(-45deg);
+    margin-bottom: 0rem;
+    margin-left: 12rem;
+  }
+  .section-circle .buttons .deg315 {
+    -webkit-transform: rotate(315deg) translate(0rem) rotate(-315deg);
+            transform: rotate(315deg) translate(0rem) rotate(-315deg);
+    margin-top: 0rem;
+    margin-left: 12rem;
+  }
 }
 /*# sourceMappingURL=fields.css.map */

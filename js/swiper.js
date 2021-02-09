@@ -1,4 +1,5 @@
 var swiper = new Swiper('.swiper-container', {
+    cssMode: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,

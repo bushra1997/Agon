@@ -74,10 +74,10 @@
     .buttons{
         margin: 5% -20%;
         img{
-            width: 50px;
+            width: 40px;
             margin-bottom: 5px;
         }
-        .blue-industry, .white-hospital ,.white-drug{
+        .blue-industry, .white-hospital ,.white-drug, .white-news, .white-training, .blue-insight{
             display: none;
         }
         .btn-circle{
@@ -176,22 +176,71 @@
         button{
             z-index: 9999;
         }
-        .deg0 { transform: translate(200%);
-            
+        .deg0 { 
+            transform: translate(205%);            
         } 
         .deg45 { 
-            transform: rotate(45deg) translate(7rem) rotate(-45deg); 
-            margin-left: 18%;
-            margin-top: -10%;
+            transform: rotate(45deg) translate(0rem) rotate(-45deg);
+            margin-bottom: 1rem;
+            margin-left: 16rem;
         }
         .deg315 {     
-            transform: rotate(350deg) translate(7rem) rotate(-350deg);
-            margin-left: 18%;
-            margin-top: 7%;
+            transform: rotate(315deg) translate(0rem) rotate(-315deg);
+            margin-top: 1rem;
+            margin-left: 14.5rem;
         }
     }
 }
-@media (max-width: 767.98px) {
-
-
+@media (max-width: 1000px) {
+    .section-circle{
+        padding: 5% 0% 7%;
+        .circle{
+            position: absolute;
+            img{
+                width: 400px;
+                left: 0;
+                margin-top: 25px;
+                margin-left: -30%;
+                z-index: -1;
+            }
+        }
+        .buttons{
+            button{
+                z-index: 9999;
+            }
+            .deg0 { 
+                transform: translate(170%);            
+            } 
+            .deg45 { 
+                transform: rotate(45deg) translate(0rem) rotate(-45deg);
+                margin-bottom: 1rem;
+                margin-left: 12rem;
+            }
+            .deg315 {     
+                transform: rotate(315deg) translate(0rem) rotate(-315deg);
+                margin-top: 1rem;
+                margin-left: 12rem;
+            }
+        }
+    }
+}
+@media (max-width: 767.9px) {
+    .section-circle{
+        padding: 5% 0% 7%;
+        .buttons{
+            .deg0 { 
+                transform: translate(170%);            
+            } 
+            .deg45 { 
+                transform: rotate(45deg) translate(0rem) rotate(-45deg);
+                margin-bottom: 0rem;
+                margin-left: 12rem;
+            }
+            .deg315 {     
+                transform: rotate(315deg) translate(0rem) rotate(-315deg);
+                margin-top: 0rem;
+                margin-left: 12rem;
+            }
+        }
+    }
 }

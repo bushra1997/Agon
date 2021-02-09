@@ -48,7 +48,12 @@ $(document).ready(function () {
         $(this).addClass('active');
         $('.click5').removeClass('active');
         $('.click6').removeClass('active');
-
+        $('.white-news').show();
+        $('.blue-news').hide();
+        $('.blue-training').show();
+        $('.white-training').hide();
+        $('.white-insight').hide();
+        $('.blue-insight').show();
     });
     $('.click5').click(function(){
         $('#description5').fadeIn(2000);
@@ -57,7 +62,12 @@ $(document).ready(function () {
         $(this).addClass('active');
         $('.click4').removeClass('active');
         $('.click6').removeClass('active');
-
+        $('.white-news').hide();
+        $('.blue-news').show();
+        $('.blue-training').hide();
+        $('.white-training').show();
+        $('.white-insight').hide();
+        $('.blue-insight').show();
     });
     $('.click6').click(function(){
         $('#description6').fadeIn(2000);
@@ -66,7 +76,12 @@ $(document).ready(function () {
         $(this).addClass('active');
         $('.click4').removeClass('active');
         $('.click5').removeClass('active');
-
+        $('.white-news').hide();
+        $('.blue-news').show();
+        $('.blue-training').show();
+        $('.white-training').hide();
+        $('.white-insight').show();
+        $('.blue-insight').hide();
     });
 
     $(window).scroll(function(){
