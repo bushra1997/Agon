@@ -61,20 +61,26 @@
 }
 
 .light .description, .white .description {
-  margin-top: 15%;
-  padding: 5%;
+  margin-top: 10%;
+  padding: 0%;
+  margin-left: -5%;
+}
+
+.light .description p, .white .description p {
+  padding: 0%;
+  margin: 2% 0% 0%;
 }
 
 .light .description h1, .white .description h1 {
-  margin-left: 20px;
-}
-
-.light .description button, .white .description button {
-  margin-left: 20px;
+  margin-bottom: 5%;
 }
 
 .light .description .image, .white .description .image {
   margin-bottom: 15px;
+}
+
+.light .description .container h1, .white .description .container h1 {
+  margin-bottom: 6%;
 }
 
 .light .description .info h3, .white .description .info h3 {
@@ -83,6 +89,7 @@
 
 .light .description .info p, .white .description .info p {
   color: #333333;
+  padding: 0%;
 }
 
 .light .buttons, .white .buttons {
@@ -100,13 +107,14 @@
 
 .light .buttons .btn-circle, .white .buttons .btn-circle {
   display: block;
-  height: 150px;
-  width: 150px;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
-  padding: 2.5% 2%;
+  padding: 0%;
   text-align: center;
   border: #194481 2px solid;
   color: #194481;
+  font-weight: 500;
 }
 
 .light .buttons .white, .white .buttons .white {
@@ -188,7 +196,7 @@
 }
 
 .section-circle .circle img {
-  width: 420px;
+  width: 450px;
   left: 0;
   margin-top: 25px;
   margin-left: -30%;
@@ -219,6 +227,10 @@
 }
 
 @media (max-width: 1000px) {
+  .light .description, .white .description {
+    padding: 7.5%;
+    margin-left: 5%;
+  }
   .section-circle {
     padding: 5% 0% 7%;
   }
@@ -249,6 +261,10 @@
 }
 
 @media (max-width: 767.9px) {
+  .light .description, .white .description {
+    padding: 7.5%;
+    margin-left: 0%;
+  }
   .section-circle {
     padding: 5% 0% 7%;
   }

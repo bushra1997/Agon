@@ -20,7 +20,7 @@
 
 .navbar .navbar-brand {
   padding: 0%;
-  margin: -25% 0% 0% 30%;
+  margin: -25% 0% 0% 0%;
 }
 
 .navbar .navbar-brand img {
@@ -28,7 +28,7 @@
   height: 120px;
   background: #fff;
   padding: 30% 15% 10%;
-  border-radius: 5%;
+  border-radius: 3%;
 }
 
 .navbar .social {
@@ -51,7 +51,7 @@
 
 .navbar .navbar-nav .nav-item .nav-link {
   color: #ffffff;
-  margin-left: 25px;
+  margin-left: 30px;
   font-size: 15px;
   font-weight: 500;
 }
@@ -100,7 +100,7 @@
 .carousel .carousel-inner .carousel-caption {
   top: auto;
   bottom: 75px;
-  left: 150px;
+  left: 120px;
 }
 
 .carousel .carousel-inner .carousel-caption h1 {
