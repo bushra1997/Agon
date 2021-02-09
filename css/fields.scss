@@ -195,13 +195,10 @@
     .section-circle{
         padding: 5% 0% 7%;
         .circle{
-            position: absolute;
             img{
                 width: 400px;
-                left: 0;
                 margin-top: 25px;
                 margin-left: -30%;
-                z-index: -1;
             }
         }
         .buttons{
@@ -227,20 +224,36 @@
 @media (max-width: 767.9px) {
     .section-circle{
         padding: 5% 0% 7%;
+        .circle{
+            img{
+                width: 350px;
+            }
+        }
         .buttons{
+            margin: 5% -20%;
+            img{
+                width: 30px;
+                margin-bottom: 2.5px;
+            }
+            .btn-circle{
+                height: 120px;
+                width: 120px;
+                font-size: 12px;
+            }
             .deg0 { 
-                transform: translate(170%);            
+                transform: translate(210%);            
             } 
             .deg45 { 
                 transform: rotate(45deg) translate(0rem) rotate(-45deg);
-                margin-bottom: 0rem;
+                margin-bottom: 1rem;
                 margin-left: 12rem;
             }
             .deg315 {     
                 transform: rotate(315deg) translate(0rem) rotate(-315deg);
-                margin-top: 0rem;
+                margin-top: 1rem;
                 margin-left: 12rem;
             }
         }
+
     }
 }

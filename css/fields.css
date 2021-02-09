@@ -222,15 +222,10 @@
   .section-circle {
     padding: 5% 0% 7%;
   }
-  .section-circle .circle {
-    position: absolute;
-  }
   .section-circle .circle img {
     width: 400px;
-    left: 0;
     margin-top: 25px;
     margin-left: -30%;
-    z-index: -1;
   }
   .section-circle .buttons button {
     z-index: 9999;
@@ -257,20 +252,35 @@
   .section-circle {
     padding: 5% 0% 7%;
   }
+  .section-circle .circle img {
+    width: 350px;
+  }
+  .section-circle .buttons {
+    margin: 5% -20%;
+  }
+  .section-circle .buttons img {
+    width: 30px;
+    margin-bottom: 2.5px;
+  }
+  .section-circle .buttons .btn-circle {
+    height: 120px;
+    width: 120px;
+    font-size: 12px;
+  }
   .section-circle .buttons .deg0 {
-    -webkit-transform: translate(170%);
-            transform: translate(170%);
+    -webkit-transform: translate(210%);
+            transform: translate(210%);
   }
   .section-circle .buttons .deg45 {
     -webkit-transform: rotate(45deg) translate(0rem) rotate(-45deg);
             transform: rotate(45deg) translate(0rem) rotate(-45deg);
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     margin-left: 12rem;
   }
   .section-circle .buttons .deg315 {
     -webkit-transform: rotate(315deg) translate(0rem) rotate(-315deg);
             transform: rotate(315deg) translate(0rem) rotate(-315deg);
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-left: 12rem;
   }
 }
