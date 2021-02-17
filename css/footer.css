@@ -13,7 +13,7 @@ footer .dark-blue .contact-info h6 {
 }
 
 footer .dark-blue .contact-info ul li span {
-  margin-top: 0.20rem;
+  margin-top: 0.2rem;
   font-size: 13px;
 }
 
@@ -21,7 +21,8 @@ footer .dark-blue .contact-info ul li i {
   font-size: 10px;
 }
 
-footer .dark-blue .about ul li a, footer .dark-blue .links ul li a {
+footer .dark-blue .about ul li a,
+footer .dark-blue .links ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 13px;

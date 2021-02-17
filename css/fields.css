@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -21,91 +21,119 @@
   padding: 5% 0px;
 }
 
-.light p, .white p {
+.light p,
+.white p {
   padding: 2.5% 5%;
   color: #333333;
 }
 
-.light h1, .white h1 {
+.light h1,
+.white h1 {
   color: #194481;
   font-size: 35px;
   font-weight: 700;
 }
 
-.light .div, .white .div {
+.light .div,
+.white .div {
   margin: 15px 0px;
   padding: 50px 2%;
   height: 250px;
 }
 
-.light .div img, .white .div img {
+.light .div img,
+.white .div img {
   width: 110px;
   display: block;
   margin: auto;
 }
 
-.light .div h4, .white .div h4 {
+.light .div h4,
+.white .div h4 {
   font-size: 16px;
 }
 
-.light .btn-blue, .white .btn-blue {
+.light .btn-blue,
+.white .btn-blue {
   background-color: transparent;
   border: 2px solid #194481;
   border-radius: 0px;
   color: #194481;
 }
 
-.light .btn-blue:hover, .white .btn-blue:hover {
+.light .btn-blue:hover,
+.white .btn-blue:hover {
   background-color: #194481;
   color: #fff;
 }
 
-.light .description, .white .description {
+.light .description,
+.white .description {
   margin-top: 10%;
   padding: 0%;
   margin-left: -5%;
 }
 
-.light .description p, .white .description p {
+.light .description p,
+.white .description p {
   padding: 0%;
   margin: 2% 0% 0%;
 }
 
-.light .description h1, .white .description h1 {
+.light .description h1,
+.white .description h1 {
   margin-bottom: 5%;
 }
 
-.light .description .image, .white .description .image {
+.light .description .image,
+.white .description .image {
   margin-bottom: 15px;
 }
 
-.light .description .container h1, .white .description .container h1 {
+.light .description .container h1,
+.white .description .container h1 {
   margin-bottom: 6%;
 }
 
-.light .description .info h3, .white .description .info h3 {
+.light .description .info h3,
+.white .description .info h3 {
   color: #194481;
 }
 
-.light .description .info p, .white .description .info p {
+.light .description .info p,
+.white .description .info p {
   color: #333333;
   padding: 0%;
 }
 
-.light .buttons, .white .buttons {
+.light .buttons,
+.white .buttons {
   margin: 5% -20%;
 }
 
-.light .buttons img, .white .buttons img {
+.light .buttons img,
+.white .buttons img {
   width: 40px;
   margin-bottom: 5px;
 }
 
-.light .buttons .blue-industry, .light .buttons .white-hospital, .light .buttons .white-drug, .light .buttons .white-news, .light .buttons .white-training, .light .buttons .blue-insight, .white .buttons .blue-industry, .white .buttons .white-hospital, .white .buttons .white-drug, .white .buttons .white-news, .white .buttons .white-training, .white .buttons .blue-insight {
+.light .buttons .blue-industry,
+.light .buttons .white-hospital,
+.light .buttons .white-drug,
+.light .buttons .white-news,
+.light .buttons .white-training,
+.light .buttons .blue-insight,
+.white .buttons .blue-industry,
+.white .buttons .white-hospital,
+.white .buttons .white-drug,
+.white .buttons .white-news,
+.white .buttons .white-training,
+.white .buttons .blue-insight {
   display: none;
 }
 
-.light .buttons .btn-circle, .white .buttons .btn-circle {
+.light .buttons .btn-circle,
+.white .buttons .btn-circle {
   display: block;
   height: 160px;
   width: 160px;
@@ -117,11 +145,13 @@
   font-weight: 500;
 }
 
-.light .buttons .white, .white .buttons .white {
+.light .buttons .white,
+.white .buttons .white {
   background-color: #fff;
 }
 
-.light .buttons .active, .white .buttons .active {
+.light .buttons .active,
+.white .buttons .active {
   border: #194481 2px solid;
   color: #fff;
   background-color: #194481;
@@ -183,7 +213,10 @@
   margin-top: 2%;
 }
 
-#description2, #description3, #description4, #description5 {
+#description2,
+#description3,
+#description4,
+#description5 {
   display: none;
 }
 
@@ -227,7 +260,8 @@
 }
 
 @media (max-width: 1000px) {
-  .light .description, .white .description {
+  .light .description,
+  .white .description {
     padding: 7.5%;
     margin-left: 5%;
   }
@@ -235,7 +269,7 @@
     padding: 5% 0% 7%;
   }
   .section-circle .circle img {
-    width: 400px;
+    width: 450px;
     margin-top: 25px;
     margin-left: -30%;
   }
@@ -243,25 +277,26 @@
     z-index: 9999;
   }
   .section-circle .buttons .deg0 {
-    -webkit-transform: translate(170%);
-            transform: translate(170%);
+    -webkit-transform: translate(180%);
+            transform: translate(180%);
   }
   .section-circle .buttons .deg45 {
     -webkit-transform: rotate(45deg) translate(0rem) rotate(-45deg);
             transform: rotate(45deg) translate(0rem) rotate(-45deg);
     margin-bottom: 1rem;
-    margin-left: 12rem;
+    margin-left: 13rem;
   }
   .section-circle .buttons .deg315 {
     -webkit-transform: rotate(315deg) translate(0rem) rotate(-315deg);
             transform: rotate(315deg) translate(0rem) rotate(-315deg);
     margin-top: 1rem;
-    margin-left: 12rem;
+    margin-left: 13rem;
   }
 }
 
 @media (max-width: 767.9px) {
-  .light .description, .white .description {
+  .light .description,
+  .white .description {
     padding: 7.5%;
     margin-left: 0%;
   }

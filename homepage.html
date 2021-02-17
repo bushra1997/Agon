@@ -1,496 +1,717 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/fields.css">
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/fields.css" />
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- Bootstrap CSS link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <!-- Font family English-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font family Arabic -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Agon</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent fixed-top">
-        <div class="container">
-            <div class="logo">
-                <a class="navbar-brand" href="#"><img src="./images/Agon-Logo.png" alt=""></a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars" style="color: white;"></i>
-            </button>
-            <div class="container ">
-                <div class="social ml-auto p-2">
-                    <ul>
-                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Industries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Trainings</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Media</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Insight</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" style="font-family: 'Cairo', sans-serif;">عربي</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-text">
-                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                    
-                </div>
-            </div>   
+    <nav
+      class="navbar navbar-expand-lg navbar-transparent bg-transparent fixed-top"
+    >
+      <div class="container">
+        <div class="logo">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/Agon-Logo.png" alt=""
+          /></a>
         </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars" style="color: white"></i>
+        </button>
+        <div class="container">
+          <div class="social ml-auto p-2">
+            <ul>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trainings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Insight</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  style="font-family: 'Cairo', sans-serif"
+                  >عربي</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-text">
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
     <div id="carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-          <li data-target="#carousel" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner ">
-          <div class="carousel-item drk active">
-            <img src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption text-left d-none d-md-block">
-              <h1>First slide label</h1>
-              <h5>Some representative placeholder content for the first slide.</h5>
-              <button class="btn"> REGIST NOW</button>
-            </div>
-          </div>
-          <div class="carousel-item drk">
-            <img src="./images/problem-solving-close-up-view-hand-business-woman-stopping-falling-blocks-table-concept-about-taking-responsibility.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption text-left d-none d-md-block">
-              <h1>Second slide label</h1>
-              <h5>Some representative placeholder content for the second slide.</h5>
-              <button class="btn"> REGIST NOW</button>
-            </div>
-          </div>
-          <div class="carousel-item drk">
-            <img src="./images/womans-hands-typing-laptop-workplace.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption text-left d-none d-md-block">
-              <h1>Third slide label</h1>
-              <h5>Some representative placeholder content for the third slide.</h5>
-              <button class="btn"> REGIST NOW</button>
-            </div>
-          </div>
-          <div class="carousel-item drk">
-            <img src="./images/problem-solving-close-up-view-hand-business-woman-stopping-falling-blocks-table-concept-about-taking-responsibility.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption text-left d-none d-md-block">
-              <h1>Fourth slide label</h1>
-              <h5>Some representative placeholder content for the 4th slide.</h5>
-              <button class="btn"> REGIST NOW</button>
-            </div>
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item drk active">
+          <img
+            src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-left d-none d-md-block">
+            <h1>First slide label</h1>
+            <h5>
+              Some representative placeholder content for the first slide.
+            </h5>
+            <button class="btn">REGIST NOW</button>
           </div>
         </div>
+        <div class="carousel-item drk">
+          <img
+            src="./images/problem-solving-close-up-view-hand-business-woman-stopping-falling-blocks-table-concept-about-taking-responsibility.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-left d-none d-md-block">
+            <h1>Second slide label</h1>
+            <h5>
+              Some representative placeholder content for the second slide.
+            </h5>
+            <button class="btn">REGIST NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item drk">
+          <img
+            src="./images/womans-hands-typing-laptop-workplace.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-left d-none d-md-block">
+            <h1>Third slide label</h1>
+            <h5>
+              Some representative placeholder content for the third slide.
+            </h5>
+            <button class="btn">REGIST NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item drk">
+          <img
+            src="./images/problem-solving-close-up-view-hand-business-woman-stopping-falling-blocks-table-concept-about-taking-responsibility.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-left d-none d-md-block">
+            <h1>Fourth slide label</h1>
+            <h5>Some representative placeholder content for the 4th slide.</h5>
+            <button class="btn">REGIST NOW</button>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Section 1 -->
     <section class="white section-circle">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="circle">
-                        <img src="./images/Oval.svg" alt="">
-                    </div>
-                    <div class="buttons" style="max-width: 100%;">
-                        <button class="click1 white btn-circle deg45 active" id="white">
-                            <img class ='white-industry'src="./images/industry -white.svg" alt="">
-                            <img class ='blue-industry' src="./images/industry-blue.svg" alt="">
-                            <span>
-                                Pharmaceutical <br>Industry
-                            </span>
-                        </button>
-                        <button class="click2 white btn-circle deg0" id="white">
-                            <img class ='blue-hospital'src="./images/hospitals-blue.svg" alt="">
-                            <img class ='white-hospital' src="./images/hospitals-white.svg" alt="">
-                            <br>
-                            <span>
-                                Hospitals
-                            </span>
-                        </button>
-                        <button class="click3 white btn-circle deg315" id="white">
-                            <img class ='blue-drug' src="./images/drug-blue.svg" alt="">
-                            <img class ='white-drug' src="./images/drug white.svg" alt="">
-                            <br>
-                            <span>
-                                Drug Stroes
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 10%;">
-                    <div class="description" id="description1">
-                        <h1>Pharmaceutical  <br>Industry</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto corrupti consectetur quasi perspiciatis et, facere minus quos? Corrupti unde harum ipsam deserunt cumque soluta cum, laudantium quaerat nemo iusto cupiditate.</p><br>
-                        <button class="btn btn-blue">REQUEST A SERVICE</button>
-                    </div>
-                    <div class="description" id="description2">
-                        <h1>Hospitals</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, asperiores a architecto deserunt iure provident necessitatibus commodi sunt distinctio quod deleniti error dignissimos molestiae consectetur natus aperiam adipisci quia voluptas.</p><br>
-                        <button class="btn btn-blue">REQUEST A SERVICE</button>
-                    </div>
-                    <div class="description" id="description3">
-                        <h1>Drug Stores</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse animi minus necessitatibus numquam quaerat mollitia iste sapiente consectetur quasi cupiditate, eligendi doloribus, reprehenderit excepturi maiores porro. Inventore, nesciunt aliquam!</p><br>
-                        <button class="btn btn-blue">REQUEST A SERVICE</button>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="circle">
+              <img src="./images/Oval.svg" alt="" />
             </div>
+            <div class="buttons" style="max-width: 100%">
+              <button class="click1 white btn-circle deg45 active" id="white">
+                <img
+                  class="white-industry"
+                  src="./images/industry -white.svg"
+                  alt=""
+                />
+                <img
+                  class="blue-industry"
+                  src="./images/industry-blue.svg"
+                  alt=""
+                />
+                <span> Pharmaceutical <br />Industry </span>
+              </button>
+              <button class="click2 white btn-circle deg0" id="white">
+                <img
+                  class="blue-hospital"
+                  src="./images/hospitals-blue.svg"
+                  alt=""
+                />
+                <img
+                  class="white-hospital"
+                  src="./images/hospitals-white.svg"
+                  alt=""
+                />
+                <br />
+                <span> Hospitals </span>
+              </button>
+              <button class="click3 white btn-circle deg315" id="white">
+                <img class="blue-drug" src="./images/drug-blue.svg" alt="" />
+                <img class="white-drug" src="./images/drug white.svg" alt="" />
+                <br />
+                <span> Drug Stroes </span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 10%">
+            <div class="description" id="description1">
+              <h1>Pharmaceutical <br />Industry</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                corrupti consectetur quasi perspiciatis et, facere minus quos?
+                Corrupti unde harum ipsam deserunt cumque soluta cum, laudantium
+                quaerat nemo iusto cupiditate.
+              </p>
+              <br />
+              <button class="btn btn-blue">REQUEST A SERVICE</button>
+            </div>
+            <div class="description" id="description2">
+              <h1>Hospitals</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Laborum, asperiores a architecto deserunt iure provident
+                necessitatibus commodi sunt distinctio quod deleniti error
+                dignissimos molestiae consectetur natus aperiam adipisci quia
+                voluptas.
+              </p>
+              <br />
+              <button class="btn btn-blue">REQUEST A SERVICE</button>
+            </div>
+            <div class="description" id="description3">
+              <h1>Drug Stores</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt esse animi minus necessitatibus numquam quaerat
+                mollitia iste sapiente consectetur quasi cupiditate, eligendi
+                doloribus, reprehenderit excepturi maiores porro. Inventore,
+                nesciunt aliquam!
+              </p>
+              <br />
+              <button class="btn btn-blue">REQUEST A SERVICE</button>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Section 2 -->
-    <section class="light text-center" id="section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-        <div class="container">
-            <h1>Agon Services</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at placeat voluptates eveniet dolor veritatis quam saepe? Recusandae quis quaerat eius, neque, rem corporis commodi dolorum iusto dolores incidunt numquam?</p>
+    <section
+      class="light text-center"
+      id="section"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+    >
+      <div class="container">
+        <h1>Agon Services</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at
+          placeat voluptates eveniet dolor veritatis quam saepe? Recusandae quis
+          quaerat eius, neque, rem corporis commodi dolorum iusto dolores
+          incidunt numquam?
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/GMP.svg" alt="" />
+              <br />
+              <h4>GMP (Good Manufactoring Practice)</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/Data integrity.svg" alt="" />
+              <br />
+              <h4>Data Integrity</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/risk.svg" alt="" />
+              <br />
+              <h4>Risk Assessment</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/Validation.svg" alt="" />
+              <br />
+              <h4>Validation and Qualification</h4>
+            </div>
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/GMP.svg" alt="">
-                        <br>
-                        <h4>GMP (Good Manufactoring Practice)</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/Data integrity.svg" alt="">
-                        <br>
-                        <h4>Data Integrity</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/risk.svg" alt="">
-                        <br>
-                        <h4>Risk Assessment</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/Validation.svg" alt="">
-                        <br>
-                        <h4>Validation and Qualification</h4>
-                    </div>
-                </div>
-            </div><br>
-            <button class="btn btn-blue">KNOW MORE</button>
-        </div>
+        <br />
+        <button class="btn btn-blue">know more</button>
+      </div>
     </section>
     <!-- Section 3 -->
     <section class="platform">
-        <div class="container text-center " id="section">
-            <h1>Agon X Platform</h1>
-            <h4>AgonX top articles, news, and announcements updated weekly!</h4>
-            <p>Sign up now for only 75 USD, for a year of great PRO features such as the latest regulatory guidelines, cleningvalidation matrices, and an exciting discussion forum!</p>
-            <br><button class="btn btn-white"> SIGNUP NOW</button>
-        </div>
+      <div class="container text-center" id="section">
+        <h1>Agon X Platform</h1>
+        <h4>AgonX top articles, news, and announcements updated weekly!</h4>
+        <p>
+          Sign up now for only 75 USD, for a year of great PRO features such as
+          the latest regulatory guidelines, cleningvalidation matrices, and an
+          exciting discussion forum!
+        </p>
+        <br /><button class="btn btn-white">SIGNUP NOW</button>
+      </div>
     </section>
     <!-- Section 4 -->
-    <section class="white text-center" id="section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-        <div class="container">
-            <h1>Agon Training</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at placeat voluptates eveniet dolor veritatis quam saepe? Recusandae quis quaerat eius, neque, rem corporis commodi dolorum iusto dolores incidunt numquam?</p>
+    <section
+      class="white text-center"
+      id="section"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+    >
+      <div class="container">
+        <h1>Agon Training</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at
+          placeat voluptates eveniet dolor veritatis quam saepe? Recusandae quis
+          quaerat eius, neque, rem corporis commodi dolorum iusto dolores
+          incidunt numquam?
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/GMP.svg" alt="" />
+              <br />
+              <h4>GMP (Good Manufactoring Practice)</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/Data integrity.svg" alt="" />
+              <br />
+              <h4>Data Integrity</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/risk.svg" alt="" />
+              <br />
+              <h4>Risk Assessment</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="div">
+              <img src="./images/Validation.svg" alt="" />
+              <br />
+              <h4>Validation and Qualification</h4>
+            </div>
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/GMP.svg" alt="">
-                        <br>
-                        <h4>GMP (Good Manufactoring Practice)</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/Data integrity.svg" alt="">
-                        <br>
-                        <h4>Data Integrity</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/risk.svg" alt="">
-                        <br>
-                        <h4>Risk Assessment</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="div">
-                        <img src="./images/Validation.svg" alt="">
-                        <br>
-                        <h4>Validation and Qualification</h4>
-                    </div>
-                </div>
-            </div><br>
-            <button class="btn btn-blue">FIND MORE</button>
-        </div>
+        <br />
+        <button class="btn btn-blue">FIND MORE</button>
+      </div>
     </section>
     <!-- Section 5 -->
     <section class="light section-circle">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="circle">
-                        <img src="./images/Oval.svg" alt="">
-                    </div>
-                    <div class="buttons" style="max-width: 100%;">
-                        <button class="click4 btn-circle deg45">
-                            <img class ='blue-news'src="./images/NEws.svg" alt="">
-                            <img class ='white-news' src="./images/newspaper white.svg" alt="">
-                            <br>
-                            <span>
-                                Agon News 
-                            </span>
-                        </button>
-                        <button class="click5 btn-circle deg0">
-                            <img class ='blue-training' src="./images/Public Training.svg" alt="">
-                            <img class ='white-training' src="./images/event white.svg" alt="">
-                            <br>
-                            <span>
-                                Public Trainings
-                            </span>
-                        </button>
-                        <button class="click6 btn-circle deg315 active">
-                            <img class ='blue-insight' src ="./images/insight blue.svg" alt="">
-                            <img class ='white-insight' src="./images/Insight.svg" alt="">
-                            <br>
-                            <span>
-                                Agon Insight 
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="description" id="description4">
-                        <div class="container">
-                            <h1>Agon News</h1>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="image">
-                                        <img width="100%"src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="info">
-                                        <h3>Title</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="image">
-                                        <img width="100%"src="./images/womans-hands-typing-laptop-workplace.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="info">
-                                        <h3>Title</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="description" id="description5">
-                        <div class="container">
-                            <h1>Public Trainings </h1>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="image">
-                                        <img width="100%"src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="info">
-                                        <h3>Title</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="image">
-                                        <img width="100%"src="./images/womans-hands-typing-laptop-workplace.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="info">
-                                        <h3>Title</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="description" id="description6">
-                        <div class="container">
-                            <h1>Agon Insight</h1>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="image">
-                                        <img width="100%"src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="info">
-                                        <h3>Title</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="image">
-                                        <img width="100%"src="./images/womans-hands-typing-laptop-workplace.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="info">
-                                        <h3>Title</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="circle">
+              <img src="./images/Oval.svg" alt="" />
             </div>
+            <div class="buttons" style="max-width: 100%">
+              <button class="click4 btn-circle deg45">
+                <img class="blue-news" src="./images/NEws.svg" alt="" />
+                <img
+                  class="white-news"
+                  src="./images/newspaper white.svg"
+                  alt=""
+                />
+                <br />
+                <span> Agon News </span>
+              </button>
+              <button class="click5 btn-circle deg0">
+                <img
+                  class="blue-training"
+                  src="./images/Public Training.svg"
+                  alt=""
+                />
+                <img
+                  class="white-training"
+                  src="./images/event white.svg"
+                  alt=""
+                />
+                <br />
+                <span> Public Trainings </span>
+              </button>
+              <button class="click6 btn-circle deg315 active">
+                <img
+                  class="blue-insight"
+                  src="./images/insight blue.svg"
+                  alt=""
+                />
+                <img class="white-insight" src="./images/Insight.svg" alt="" />
+                <br />
+                <span> Agon Insight </span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="description" id="description4">
+              <div class="container">
+                <h1>Agon News</h1>
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <img
+                        width="100%"
+                        src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="info">
+                      <h3>Title</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <img
+                        width="100%"
+                        src="./images/womans-hands-typing-laptop-workplace.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="info">
+                      <h3>Title</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="description" id="description5">
+              <div class="container">
+                <h1>Public Trainings</h1>
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <img
+                        width="100%"
+                        src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="info">
+                      <h3>Title</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <img
+                        width="100%"
+                        src="./images/womans-hands-typing-laptop-workplace.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="info">
+                      <h3>Title</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="description" id="description6">
+              <div class="container">
+                <h1>Agon Insight</h1>
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <img
+                        width="100%"
+                        src="./images/aerial-view-man-using-computer-laptop-wooden-table_53876-24824.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="info">
+                      <h3>Title</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="image">
+                      <img
+                        width="100%"
+                        src="./images/womans-hands-typing-laptop-workplace.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="info">
+                      <h3>Title</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Section 6 -->
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" id="azierta">
-        <img src="./images/logo-azierta-.svg" alt="" width="120px">
-      </div>
-      <div class="swiper-slide" id="coval">
-        <img src="./images/Coval.svg" alt="" width="150px">
-      </div>
-      <div class="swiper-slide">
-        <img src="./images/bts-website.svg" alt="" width="150px">
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" id="azierta">
+          <img src="./images/logo-azierta-.svg" alt="" width="120px" />
+        </div>
+        <div class="swiper-slide" id="coval">
+          <img src="./images/Coval.svg" alt="" width="150px" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/bts-website.svg" alt="" width="150px" />
+        </div>
       </div>
     </div>
-  </div>
     <!-- FOOTER -->
     <footer>
-        <section class="dark-blue">
-            <div class="container">
+      <section class="dark-blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 0% ;">
+              <div class="contact-info">
+                <h6>Contact us</h6>
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"
+                      ><i class="fas fa-map-marker-alt"></i></span
+                    ><span
+                      >Queen Rania Street, Al-Awamleh Complex, Bulding 373, 5th
+                      Floor</span
+										>
+										<br>
+                    <span>Amman,Jordan</span>
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-phone-alt"></i></span
+                    ><span>+962 (6)5372726</span> <br />
+                    <span>+962 (79)1533337</span>
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-envelope"></i></span
+                    ><span>m.abuzour@agonme.com , info@agonme.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 0%;">
+              <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="contact-info">
-                            <h6>Contact us</h6>
-                            <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span><span>Queen Rania Street, Al-Awamleh Complex, Bulding 373, 5th Floor</span> <br> <span>Amman,Jordan</span> </li>
-                                <li><span class="fa-li"><i class="fas fa-phone-alt"></i></span><span>+962 (6)5372726</span> <br> <span>+962 (79)1533337</span></li>
-                                <li><span class="fa-li"><i class="fas fa-envelope"></i></span><span>m.abuzour@agonme.com , info@agonme.com</span></li>
-                            </ul>
-                        </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left: 25px;">
+                    <div class="about">
+                      <h6>About us</h6>
+                      <ul>
+                        <li><a href="#">About Agon</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Agencies</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Consultants</a></li>
+                      </ul>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="about">
-                                        <h6>About us</h6>
-                                        <ul>
-                                            <li><a href="#">About Agon</a></li>
-                                            <li><a href="#">Our Team</a></li>
-                                            <li><a href="#">Partners</a></li>
-                                            <li><a href="#">Agencies</a></li>
-                                            <li><a href="#">Testimonials</a></li>
-                                            <li><a href="#">Consultants</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="links">
-                                        <h6>Useful Links</h6>
-                                        <ul>
-                                            <li><a href="#">Term of use</a></li>
-                                            <li><a href="#">Privacy policy</a></li>
-                                            <li><a href="#">Careers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left: 25px;">
+                    <div class="links">
+                      <h6>Useful Links</h6>
+                      <ul>
+                        <li><a href="#">Term of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Careers</a></li>
+                      </ul>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <form>
-                            <h6>Join Our Newsletter</h6>
-                            <input type="text" placeholder="Enter your name">
-                            <br>
-                            <input type="email" placeholder="Enter your email">
-                            <br>
-                            <button class="btn white">SUBMIT</button>
-                        </form>
-                        <br><br><br>
-                        <div class="social-links">
-                            <h6>Follow us</h6>
-                            <ul>
-                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="sprintive-copyrights">
-            <div class="container d-flex justify-content-center">
-                <p>Crafted By</p><img src="./images/sprintive-logo (1).svg" width="80px">
+            <div class="col-lg-4 col-md-12 col-sm-12" style="padding-left: 25px;">
+              <form>
+                <h6>Join Our Newsletter</h6>
+                <input type="text" placeholder="Enter your name" />
+                <br />
+                <input type="email" placeholder="Enter your email" />
+                <br />
+                <button class="btn white">SUBMIT</button>
+              </form>
+              <br /><br /><br />
+              <div class="social-links">
+                <h6>Follow us</h6>
+                <ul>
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section class="sprintive-copyrights">
+        <div class="container d-flex justify-content-center">
+          <p>Crafted By</p>
+          <img src="./images/sprintive-logo (1).svg" width="80px" />
+        </div>
+      </section>
     </footer>
     <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
     <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+      integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+      integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g=="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <!-- Swiper JS -->
@@ -499,6 +720,8 @@
     <script src="./js/swiper.js"></script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-</body>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
